@@ -526,21 +526,7 @@ export default function App() {
         )}
       </main>
 
-      <footer className="border-t border-white/10 px-5 py-10 md:px-8">
-        <div className="mx-auto flex max-w-7xl flex-col gap-8 md:flex-row md:items-center md:justify-between">
-          <div>
-            <a href="#home" className="text-xl font-semibold tracking-[0.22em] text-white">DYAU<span className="text-cyan-300">.AI</span></a>
-          </div>
-          <div>
-            <a
-              href="mailto:contact@dyau.ai"
-              className="rounded-full border border-cyan-300/20 bg-white/[0.04] px-5 py-2.5 text-sm font-medium text-cyan-100 transition hover:border-cyan-200/50 hover:bg-cyan-300/10 hover:text-white"
-            >
-              contact@dyau.ai
-            </a>
-          </div>
-        </div>
-      </footer>
+
     </div>
   );
 }
